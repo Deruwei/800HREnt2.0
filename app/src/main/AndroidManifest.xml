@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hr.ent"
+    android:versionCode="24"
+    android:versionName="2.0.4">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <!-- 判断网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- SDK1.5需要android.permission.GET_TASKS权限判断本程序是否为当前运行的应用? -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- 分享需要的权限 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".app.App"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/SampleTheme.Light">
+
+        <!-- 友盟统计 -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="54c74733fd98c5c63b000a17" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="800hr" />
+
+        <activity
+            android:name=".ui.WelcomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 登陆界面 -->
+        <activity
+            android:name=".ui.LoginActivity"
+            android:screenOrientation="portrait" />
+        <!-- Activit的基类，有添加和删除Activity的操作 -->
+        <activity
+            android:name=".ui.BaseActivity"
+            android:screenOrientation="portrait" />
+        <!-- 主界面管理简历、Home、职位三个界面 -->
+        <activity
+            android:name=".ui.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <!-- 主菜单Home界面 -->
+        <activity
+            android:name=".ui.HomeActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <!-- 合同过期 -->
+        <activity
+            android:name=".ui.LogininvalidActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <!-- 简历界面 -->
+        <activity
+            android:name=".ui.ResumeActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <!-- 简历浏览界面 -->
+        <activity
+            android:name=".ui.ResumeScanActivity"
+            android:screenOrientation="portrait" />
+        <!-- 个人简历信息界面 -->
+        <activity
+            android:name=".ui.ResumeInfoActivity"
+            android:screenOrientation="portrait" />
+        <!-- 职位界面 -->
+        <activity
+            android:name=".ui.JobActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <!-- 职位分享 -->
+        <activity
+            android:name=".ui.JobInfoActivity"
+            android:screenOrientation="portrait" />
+        <!-- 用户协议 -->
+        <activity
+            android:name=".ui.UserAgreementActivity"
+            android:screenOrientation="portrait" />
+        <!-- 公司注册 -->
+        <activity
+            android:name=".ui.CompanyRegisterActivity"
+            android:screenOrientation="portrait" />
+        <!-- 选择行业 -->
+        <activity
+            android:name=".ui.ChooseIndustriesActivity"
+            android:screenOrientation="portrait" />
+        <!-- 领域选择 -->
+        <activity
+            android:name=".ui.SelectTerritoryActivity"
+            android:screenOrientation="portrait" />
+        <!-- 薪酬查询 -->
+        <activity
+            android:name=".ui.PayQueryActivity"
+            android:theme="@style/myTransparent"
+            android:screenOrientation="portrait" />
+        <!-- 欢迎页 -->
+        <activity
+            android:name=".ui.NewGuideActivity"
+            android:screenOrientation="portrait" />
+        <!-- 工作地点 -->
+        <activity
+            android:name=".ui.SelectPlaceToResumeActivity"
+            android:screenOrientation="portrait" />
+        <!-- 工作地点 -->
+        <activity
+            android:name=".ui.ChooseJobActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.SelectPlaceToResume2Activity"
+            android:screenOrientation="portrait" />
+        <!-- 分享需要添加的Activity -->
+        <activity
+            android:name="com.mob.tools.MobUIShell"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <data android:scheme="tencent100371282" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 微信分享回调 -->
+        <activity
+            android:name=".ui.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity android:name=".ui.AppSettingActivity" />
+        <activity android:name=".ui.ContactOurActivity" />
+        <activity android:name=".ui.ServerInfoActivity" />
+        <activity android:name=".ui.ServerParticularActivity" />
+        <activity android:name=".ui.InviteListActivity" />
+        <activity android:name=".ui.IntentionCommunicationActivity" />
+        <activity android:name=".ui.InviteParticularActivity" />
+        <activity android:name=".ui.ResumeParticularInviteActivity" />
+        <activity android:name=".ui.ResumeSearchActivity" />
+        <activity android:name=".ui.SearchResumeResult" />
+        <activity android:name=".ui.SelectFunctionForSearchActivity" />
+        <activity android:name=".ui.DoIntentionCommunicationActivity" />
+        <activity android:name=".ui.ResumeOperationActivity" />
+        <activity
+            android:name=".ui.TalentsListActivity"
+            android:label="@string/title_activity_talents_list" />
+        <activity android:name=".ui.TalentMessageActivity" />
+        <activity android:name=".ui.PostJobActivity" />
+        <activity android:name=".ui.MoreJobSettingActivity" />
+        <activity android:name=".ui.GetDepartmentActivity" />
+        <activity android:name=".ui.GetJobActivity" />
+        <activity android:name=".ui.JobTypeActivity" />
+        <activity android:name=".ui.SelectFunctionForJobActivity" />
+        <activity android:name=".ui.SelectPlaceToJob" />
+        <activity android:name=".ui.EditJobActivity"></activity>
+        <activity android:name=".ui.SelectFunctionForEditJobActivity"></activity>
+        <activity android:name=".ui.SelectPlaceToEditJobActivity"></activity>
+        <activity android:name=".ui.MoreEditJobSettingActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f6f6f6"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="false"
+    tools:context="com.hr.ent.ui.ContactOurActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_contact_top"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#F39800">
+
+        <ImageView
+            android:id="@+id/iv_contact_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/topfanhui" />
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tv_contract_our"
+                android:padding="5dp"
+                android:textColor="#F39D0D"
+                android:textSize="15dp"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/linear_banyuan_left1"
+                android:gravity="center"
+                android:text="联系我们" />
+
+            <TextView
+                android:id="@+id/tv_contract_pay"
+                android:padding="5dp"
+                android:textSize="15dp"
+                android:textColor="#fff"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/linear_banyuan_right2"
+                android:gravity="center"
+                android:text="付款方式" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/linear_contact_our"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:text="服务热线 400-6500-588"
+            android:textColor="#F39D0D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:text="北京总公司"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="11sp"
+            android:text="地址：北京中关村南大街12号信息楼6层 \n邮编：100081 \n电话：010-82197168 / 7188 \n            010-62123388 转 建筑英才网 \n传真：010-82197596 \n市场合作电话：010-82197092 \n媒体合作电话：010-82197093"
+            android:textColor="#666666"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:text="深圳总公司"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="11sp"
+            android:text="地址：深圳市罗湖区莲塘国威路68号互联网产业园3502室 \n邮编：518004 \n电话：0755-83018288 \n传真：0755-83018298 \n市场合作电话：(0755)83018288-8071/8093"
+            android:textColor="#666666"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:text="上海总公司"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="11sp"
+            android:text="地址：上海市静安区江场西路160号美邦大楼902-906室 \n邮编：200436 \n电话：021-36809666 \n手机：15901974007 \n传真：021-36809668 \n市场合作电话：021-36809665"
+            android:textColor="#666666"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/linear_contact_pay"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:text="银行电汇"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="11sp"
+            android:text="银行账号：861583963210001 \n开户银行：招商银行北京双榆树支行 \n户名：英才网联（北京）科技有限公司 "
+            android:textColor="#666666"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:text="邮局汇款"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="11sp"
+            android:text="收款人：英才网联（北京）科技有限公司 \n地址：北京市海淀区中关村南大街12号 信息楼6层 \n邮编：100081"
+            android:textColor="#666666"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

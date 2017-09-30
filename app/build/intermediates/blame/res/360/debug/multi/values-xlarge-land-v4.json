@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\incremental\\merge360DebugResources\\merged.dir\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "C:\\Users\\wdr\\.android\\build-cache\\f905c2fbb465ae45bec076077bfcd6fccf2a5dd6\\output\\res\\values-xlarge-land\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 63,
+                        "endOffset": 115
+                    }
+                }
+            }
+        ]
+    }
+]

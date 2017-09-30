@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="1">
+    <RelativeLayout
+        android:id="@+id/rl_myresume_1"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="#EEEEEE"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/imageView43"
+            android:layout_width="7dp"
+            android:layout_height="16dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:src="@mipmap/jianli_yulan_sutiao" />
+
+        <TextView
+            android:id="@+id/personinfo_title"
+            style="@style/resume_previewresume_title"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6dp"
+            android:layout_marginStart="6dp"
+            android:layout_toEndOf="@+id/imageView43"
+            android:layout_toRightOf="@+id/imageView43"
+            android:text="@string/personinfo_title" />
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#fff" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/personinfo_label_name"
+                style="@style/colour_style2"
+                android:text="@string/name" />
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:id="@+id/personinfo_label_sex"
+                style="@style/colour_style2"
+                android:text="@string/sex" />
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:id="@+id/personinfo_label_age"
+                style="@style/colour_style2"
+                android:text="@string/age" />
+
+            <TextView
+                android:id="@+id/personinfo_label_bloodtype"
+                style="@style/colour_style2"
+                android:text="@string/blood_type" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/personinfo_name"
+                style="@style/colour_style2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="10dp"
+                android:singleLine="true" />
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:id="@+id/personinfo_sex"
+                style="@style/colour_style2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="10dp"
+                android:singleLine="true" />
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:id="@+id/personinfo_age"
+                style="@style/colour_style2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="10dp"
+                android:singleLine="true" />
+
+            <TextView
+
+                android:id="@+id/personinfo_bloodtype"
+                style="@style/colour_style2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="10dp"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/personinfo_photo"
+                android:layout_width="90dp"
+                android:layout_height="120dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/photo_man" />
+        </RelativeLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:background="@android:color/white"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/personinfo_label_degree"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/degree" />
+
+        <TextView
+            android:id="@+id/personinfo_degree"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:singleLine="true" />
+    </TableRow>
+
+    <!-- 添加身高 -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:background="@android:color/white"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/personinfo_label_height"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/height" />
+
+        <TextView
+            android:id="@+id/personinfo_height"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:singleLine="true" />
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:background="@android:color/white"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/personinfo_label_country"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/country" />
+
+        <TextView
+            android:id="@+id/personinfo_country"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:singleLine="true" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:background="@android:color/white"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/personinfo_label_now_place"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/now_place" />
+
+        <TextView
+            android:id="@+id/personinfo_nowplace"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"  />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:background="@android:color/white"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/personinfo_label_accountaddress"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/account_place" />
+
+        <TextView
+            android:id="@+id/personinfo_hukou"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:singleLine="true" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:background="@android:color/white"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/personinfo_label_workyear"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/workyear" />
+
+        <TextView
+            android:id="@+id/personinfo_workyear"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:singleLine="true" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:background="@android:color/white"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/personinfo_label_currentposition"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Current_Professional_Titles" />
+        <TextView
+            android:id="@+id/personinfo_post_rank"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:singleLine="true" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:background="@android:color/white"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/personinfo_label_politics"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/polity" />
+
+        <TextView
+            android:id="@+id/personinfo_politics_status"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:singleLine="true" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:background="@android:color/white"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/personinfo_label_marriage"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/marriage_info" />
+
+        <TextView
+            android:id="@+id/personinfo_marriage_status"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:singleLine="true" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/cellphone_tr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:background="@android:color/white"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/personinfo_label_cellphone"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/mobile_phone" />
+
+        <TextView
+            android:id="@+id/personinfo_cellphone_number"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:singleLine="false" />
+
+        <ImageView
+            android:id="@+id/call_phone_1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical|right"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/call_small_bg"
+            android:visibility="gone" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/email_tr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:background="@android:color/white"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/personinfo_label_email"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Email" />
+
+        <TextView
+            android:id="@+id/personinfo_emailaddress"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:singleLine="true" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/messagetype_tr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:background="@android:color/white"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/personinfo_label_messagetype"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/message_type" />
+
+        <TextView
+            android:id="@+id/personinfo_messagetype"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:singleLine="true" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:background="@android:color/white"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/personinfo_label_message_address"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/message_address" />
+
+        <TextView
+            android:id="@+id/personinfo_message_address"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:singleLine="true" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/homepage_tr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:background="@android:color/white"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/personinfo_label_homepage"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/message_homepage" />
+
+        <TextView
+            android:id="@+id/personinfo_homepage"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:singleLine="true" />
+    </TableRow>
+</TableLayout>

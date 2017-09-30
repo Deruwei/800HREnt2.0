@@ -1,0 +1,582 @@
+[
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\dialog_forward.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\dialog_forward.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_main.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\fragment_search_resume_high.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\fragment_search_resume_high.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\resumeinfo_group_item.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\resumeinfo_group_item.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\wdr\\.android\\build-cache\\f905c2fbb465ae45bec076077bfcd6fccf2a5dd6\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\wdr\\.android\\build-cache\\f905c2fbb465ae45bec076077bfcd6fccf2a5dd6\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\abc_activity_chooser_view_include.xml",
+        "source": "C:\\Users\\wdr\\.android\\build-cache\\f905c2fbb465ae45bec076077bfcd6fccf2a5dd6\\output\\res\\layout\\abc_activity_chooser_view_include.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\pw_options.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\pickerview\\build\\intermediates\\bundles\\default\\res\\layout\\pw_options.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\wdr\\.android\\build-cache\\f905c2fbb465ae45bec076077bfcd6fccf2a5dd6\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_more_job_setting.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_more_job_setting.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_contact_our.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_contact_our.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\resumeinfo_workexperience.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\resumeinfo_workexperience.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\application_listview.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\application_listview.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\fragment_job_manage.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\fragment_job_manage.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_resumescan.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_resumescan.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\load_more_footer.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\load_more_footer.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\wdr\\.android\\build-cache\\f905c2fbb465ae45bec076077bfcd6fccf2a5dd6\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\wdr\\.android\\build-cache\\f905c2fbb465ae45bec076077bfcd6fccf2a5dd6\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\fragment_byjob.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\fragment_byjob.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\fragment_byresume.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\fragment_byresume.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\call_popupwindow.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\call_popupwindow.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\wdr\\.android\\build-cache\\f905c2fbb465ae45bec076077bfcd6fccf2a5dd6\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_selectcity_tosearch.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_selectcity_tosearch.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_company_regist.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_company_regist.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\resumeinfo_jobintention.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\resumeinfo_jobintention.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_server_particular.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_server_particular.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_resumeinfo.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_resumeinfo.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\fragment_resume_resume.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\fragment_resume_resume.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\wdr\\.android\\build-cache\\f905c2fbb465ae45bec076077bfcd6fccf2a5dd6\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\skyblue_share_platform_list_item.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\skyblue_share_platform_list_item.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\fragment_job.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\fragment_job.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\dialog_note.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\dialog_note.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\functionselect_listview_item.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\functionselect_listview_item.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\wdr\\.android\\build-cache\\f905c2fbb465ae45bec076077bfcd6fccf2a5dd6\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\resumeinfo_trainingexperience.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\resumeinfo_trainingexperience.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\item_getjob.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\item_getjob.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\job_item.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\job_item.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_resume_search.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_resume_search.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\resumeinfo_professionalskill.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\resumeinfo_professionalskill.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\item_constract_serverlist.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\item_constract_serverlist.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_search_resume_result.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_search_resume_result.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\fragment_search_resume.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\fragment_search_resume.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\include_timepicker.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\pickerview\\build\\intermediates\\bundles\\default\\res\\layout\\include_timepicker.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\fragment_resume_job.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\fragment_resume_job.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\skyblue_share_platform_list.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\skyblue_share_platform_list.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\resumeinfo_edubackground.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\resumeinfo_edubackground.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_pay_query.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_pay_query.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\skyblue_share_actionbar.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\skyblue_share_actionbar.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\item_single_layout.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\item_single_layout.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\resumeinfo_cerificate.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\resumeinfo_cerificate.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\wdr\\.android\\build-cache\\f905c2fbb465ae45bec076077bfcd6fccf2a5dd6\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\wdr\\.android\\build-cache\\f905c2fbb465ae45bec076077bfcd6fccf2a5dd6\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\skyblue_editpage.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\skyblue_editpage.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_home.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\fragment_resume.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\fragment_resume.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_resumeparticular_invite.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_resumeparticular_invite.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\item_divider_black.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\item_divider_black.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\toast_jobrefsh.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\toast_jobrefsh.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\popup_setting.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\popup_setting.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\item_inviteparticular_viewpager.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\item_inviteparticular_viewpager.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\item_server_head.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\item_server_head.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_resume_order_lingyuselect_item.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_resume_order_lingyuselect_item.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\skyblue_editpage_at_layout.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\skyblue_editpage_at_layout.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\wdr\\.android\\build-cache\\f905c2fbb465ae45bec076077bfcd6fccf2a5dd6\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\popuwindow_dialog.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\popuwindow_dialog.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\item_simple_lv.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\item_simple_lv.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\my_custom_date_picker.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\my_custom_date_picker.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\dialog_delete.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\dialog_delete.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_job_type.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_job_type.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\fragment_resume_info_particular.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\fragment_resume_info_particular.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\resumeinfo_headinfo.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\resumeinfo_headinfo.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\include_optionspicker.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\pickerview\\build\\intermediates\\bundles\\default\\res\\layout\\include_optionspicker.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\pw_time.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\pickerview\\build\\intermediates\\bundles\\default\\res\\layout\\pw_time.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\myprogressdialog.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\myprogressdialog.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\head_title.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\head_title.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\item_popfilta.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\item_popfilta.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\fragment_home.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\resumeinfo_child_item.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\resumeinfo_child_item.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\dialog_invite_item.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\dialog_invite_item.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\custom_dialog_layout.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\custom_dialog_layout.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\item_invitelist.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\item_invitelist.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\wdr\\.android\\build-cache\\f905c2fbb465ae45bec076077bfcd6fccf2a5dd6\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_resume_operation.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_resume_operation.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\resume_item.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\resume_item.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_resume_order_lingyuselect.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_resume_order_lingyuselect.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\resumeinfo_other.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\resumeinfo_other.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_welcome.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_intention_communication.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_intention_communication.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\resumeinfo_projectexperience.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\resumeinfo_projectexperience.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\resumeinfo_language.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\resumeinfo_language.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_select_function_job_order.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_select_function_job_order.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\item_elv_byresume_child.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\item_elv_byresume_child.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_logininvalid.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_logininvalid.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_invite_list.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_invite_list.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\fragment_resumeinfo.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\fragment_resumeinfo.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\skyblue_editpage_inc_image_layout.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\skyblue_editpage_inc_image_layout.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_jobinfo.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_jobinfo.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\resumeinfo_personinfo.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\resumeinfo_personinfo.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\custom_date_picker.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\custom_date_picker.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_resume.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_resume.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_job.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_job.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\wdr\\.android\\build-cache\\f905c2fbb465ae45bec076077bfcd6fccf2a5dd6\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\wdr\\.android\\build-cache\\f905c2fbb465ae45bec076077bfcd6fccf2a5dd6\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\placeselect_listview_item.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\placeselect_listview_item.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\textview_selected.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\textview_selected.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_login.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\dialog_invite_view.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\dialog_invite_view.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\wdr\\.android\\build-cache\\f905c2fbb465ae45bec076077bfcd6fccf2a5dd6\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\dialog_tell.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\dialog_tell.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\toast_resume_num.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\toast_resume_num.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\dialog_loading_new.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\dialog_loading_new.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\resumelist_item.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\resumelist_item.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\resumeinfo_accessory.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\resumeinfo_accessory.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\item_intention_communication.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\item_intention_communication.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\wdr\\.android\\build-cache\\f905c2fbb465ae45bec076077bfcd6fccf2a5dd6\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\item_talents_list.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\item_talents_list.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_get_department.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_get_department.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_talents_list.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_talents_list.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\wdr\\.android\\build-cache\\f905c2fbb465ae45bec076077bfcd6fccf2a5dd6\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_server_info.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_server_info.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\abc_simple_dropdown_hint.xml",
+        "source": "C:\\Users\\wdr\\.android\\build-cache\\f905c2fbb465ae45bec076077bfcd6fccf2a5dd6\\output\\res\\layout\\abc_simple_dropdown_hint.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\dialog_loading.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\dialog_loading.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\email_item.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\email_item.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\item_elv_byresume.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\item_elv_byresume.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_edit_job_acitvity.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_edit_job_acitvity.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\wdr\\.android\\build-cache\\f905c2fbb465ae45bec076077bfcd6fccf2a5dd6\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\dialog_ok.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\dialog_ok.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_talent_message.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_talent_message.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_newbie_guide.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_newbie_guide.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_choose_job.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_choose_job.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\item_serverinfo_list.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\item_serverinfo_list.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_choose_industries.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_choose_industries.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\dialog_invite.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\dialog_invite.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\dialog_callphone.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\dialog_callphone.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\resumeinfo_selfevaluation.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\resumeinfo_selfevaluation.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_get_job.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_get_job.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\wdr\\.android\\build-cache\\f905c2fbb465ae45bec076077bfcd6fccf2a5dd6\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_do_intention_communication.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_do_intention_communication.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\wdr\\.android\\build-cache\\f905c2fbb465ae45bec076077bfcd6fccf2a5dd6\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\item_popupwindow_isappresume.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\item_popupwindow_isappresume.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_post_job.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_post_job.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_user_agreement.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_user_agreement.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\wdr\\.android\\build-cache\\f905c2fbb465ae45bec076077bfcd6fccf2a5dd6\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_invite_particular.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_invite_particular.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\layout\\activity_app_setting.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\layout\\activity_app_setting.xml"
+    }
+]

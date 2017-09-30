@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1" >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#f6f6f6" />
+
+    <RelativeLayout
+        android:id="@+id/rl_myresume_1"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="#EEEEEE"
+        android:gravity="center_vertical"
+        >
+
+        <ImageView
+            android:id="@+id/imageView43"
+            android:layout_width="7dp"
+            android:layout_height="16dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:src="@mipmap/jianli_yulan_sutiao" />
+
+        <TextView
+            android:id="@+id/jobintention_title"
+            style="@style/resume_previewresume_title"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6dp"
+            android:layout_marginStart="6dp"
+            android:layout_toEndOf="@+id/imageView43"
+            android:layout_toRightOf="@+id/imageView43"
+            android:text="@string/jobintention_title" />
+    </RelativeLayout>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:background="@android:color/white"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/jobintention_lable_worktype"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jobintention_worktype" />
+
+        <TextView
+            android:id="@+id/jobintention_worktype"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:singleLine="true" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:background="@android:color/white"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/jobintention_lable_expectposition"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jobintention_expectposition" />
+<!-- 期望职位 -->
+        <TextView
+            android:id="@+id/jobintention_expectposition"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:background="@android:color/white"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/jobintention_lable_industry"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jobintention_industry" />
+
+        <TextView
+            android:id="@+id/jobintention_industry"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:background="@android:color/white"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/jobintention_lable_field"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jobintention_field" />
+
+        <TextView
+            android:id="@+id/jobintention_field"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:background="@android:color/white"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/jobintention_lable_workplace"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jobintention_workplace" />
+
+        <TextView
+            android:id="@+id/jobintention_workplace"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:singleLine="true" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:background="@android:color/white"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/jobintention_lable_salary"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jobintention_expectsalary" />
+
+        <TextView
+            android:id="@+id/jobintention_expectsalary"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:singleLine="true" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:background="@android:color/white"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/jobintention_lable_state"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jobintention_state" />
+<!-- 求职状态 android:singleLine="true"文本不能全部显示时，可用..代替-->
+        <TextView
+            android:id="@+id/jobintention_state"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+           />
+    </TableRow>
+
+</TableLayout>

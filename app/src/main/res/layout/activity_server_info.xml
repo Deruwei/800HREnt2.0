@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="false"
+    tools:context="com.hr.ent.ui.ServerInfoActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#F39800">
+
+        <ImageView
+            android:id="@+id/iv_serverinfo_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/topfanhui" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="合同详情"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <ListView
+        android:background="#ebebeb"
+        android:id="@+id/lv_serverinfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:listSelector="#00000000"
+        android:scrollbars="none"></ListView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#ebebeb" />
+</LinearLayout>

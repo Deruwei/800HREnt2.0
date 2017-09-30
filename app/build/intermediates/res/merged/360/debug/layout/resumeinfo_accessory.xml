@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:stretchColumns="1"  >
+    
+    
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/cerificate_accessory"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cerificate_accessory" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:background="@android:color/white"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/cerificate_lable_accessories"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cerificate_Other_accessories" />
+
+        <TextView
+            android:id="@+id/cerificate_accessories"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:singleLine="true" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:background="@android:color/white"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/cerificate_lable_name2"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cerificate_Other_describe" />
+
+        <TextView
+            android:id="@+id/cerificate_name2"
+            style="@style/colour_style2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:singleLine="true" />
+    </TableRow>
+
+</TableLayout>

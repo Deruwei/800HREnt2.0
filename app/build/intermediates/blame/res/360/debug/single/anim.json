@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\anim\\dialog_enter_anim.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\anim\\dialog_enter_anim.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\anim\\push_left_out.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\anim\\push_left_out.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\wdr\\.android\\build-cache\\f905c2fbb465ae45bec076077bfcd6fccf2a5dd6\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\anim\\push_left_in.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\anim\\push_left_in.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\anim\\timepicker_anim_exit_bottom.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\pickerview\\build\\intermediates\\bundles\\default\\res\\anim\\timepicker_anim_exit_bottom.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\anim\\push_right_out.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\anim\\push_right_out.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\anim\\push_right_in.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\anim\\push_right_in.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\anim\\loading_anim.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\anim\\loading_anim.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\wdr\\.android\\build-cache\\f905c2fbb465ae45bec076077bfcd6fccf2a5dd6\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\anim\\fade_out.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\anim\\timepicker_anim_enter_bottom.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\pickerview\\build\\intermediates\\bundles\\default\\res\\anim\\timepicker_anim_enter_bottom.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\anim\\fade_in.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\anim\\dialog_exit_anim.xml",
+        "source": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\src\\main\\res\\anim\\dialog_exit_anim.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\wdr\\.android\\build-cache\\f905c2fbb465ae45bec076077bfcd6fccf2a5dd6\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\wdr\\.android\\build-cache\\f905c2fbb465ae45bec076077bfcd6fccf2a5dd6\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\wdr\\.android\\build-cache\\f905c2fbb465ae45bec076077bfcd6fccf2a5dd6\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "F:\\800HREnt2.020170921\\800HREnt2.0\\app\\build\\intermediates\\res\\merged\\360\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\wdr\\.android\\build-cache\\f905c2fbb465ae45bec076077bfcd6fccf2a5dd6\\output\\res\\anim\\abc_slide_out_top.xml"
+    }
+]

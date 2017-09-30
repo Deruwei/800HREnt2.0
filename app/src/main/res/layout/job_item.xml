@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="61dp">
+
+        <TextView
+            android:id="@+id/job_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="15dp"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/job_address"
+            android:layout_width="100dp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/job_name"
+            android:layout_alignStart="@+id/job_name"
+            android:layout_below="@+id/job_name"
+            android:layout_marginTop="6dp"
+            android:text=""
+            android:textColor="#666666"
+            android:textSize="13sp" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:src="@mipmap/jiantou_right" />
+        <TextView
+            android:id="@+id/job_publish_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/job_name"
+            android:layout_marginRight="41dp"
+            android:text=""
+            android:textSize="14sp"
+            android:textColor="#999999" />
+        <TextView
+            android:id="@+id/tv_resumejob_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#999999"
+            android:textSize="14sp"
+            android:layout_alignTop="@+id/job_address"
+            android:layout_alignRight="@+id/job_publish_time"
+            android:layout_alignEnd="@+id/job_publish_time" />
+        <TextView
+            android:id="@+id/tv_resumejob_resumenum"
+            android:textColor="#00A0E9"
+            android:textSize="14sp"
+            android:gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/job_address"
+            android:layout_alignRight="@+id/job_publish_time"
+            android:layout_alignEnd="@+id/job_publish_time" />
+    </RelativeLayout>
+
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="11dp"
+        android:background="#EBEBEB"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+</LinearLayout>

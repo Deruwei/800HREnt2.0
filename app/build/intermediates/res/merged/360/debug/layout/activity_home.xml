@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whrite"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <include layout="@layout/head_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/welcome_info"
+                style="@style/home_textstyle_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/home_welcome" />
+
+            <TextView
+                android:id="@+id/new_resume"
+                style="@style/home_textstyle_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/orange2"
+                android:drawableEnd="@drawable/enter"
+                android:drawableRight="@drawable/enter"
+                android:text="@string/new_resume" />
+
+            <TextView
+                android:id="@+id/unread_resume"
+                style="@style/home_textstyle_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/orange2"
+                android:drawableEnd="@drawable/enter"
+                android:drawableRight="@drawable/enter"
+                android:text="@string/unread_resume" />
+
+            <TextView
+                style="@style/home_textstyle_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/menu_color"
+                android:text="@string/service_limit" />
+
+            <TextView
+                android:id="@+id/job_publish"
+                style="@style/home_textstyle_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/job_publish" />
+
+            <TextView
+                android:id="@+id/resume_download"
+                style="@style/home_textstyle_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/resume_download" />
+
+            <TextView
+                android:id="@+id/high_job_publish"
+                style="@style/home_textstyle_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/high_job_publish" />
+
+            <TextView
+                android:id="@+id/high_resume_download"
+                style="@style/home_textstyle_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/high_resume_download" />
+
+            <TextView
+                android:id="@+id/sms_send"
+                style="@style/home_textstyle_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sms_send" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/menu_color" >
+
+                <TextView
+                    style="@style/home_textstyle_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/recruiter" />
+
+                <TextView
+                    android:id="@+id/contract_state_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp" />
+
+                <ImageView
+                    android:id="@+id/contract_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_toLeftOf="@+id/contract_state_tv"
+                    android:layout_toStartOf="@+id/contract_state_tv"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/contact_ing" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/recruiter_name"
+                    style="@style/home_textstyle_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/recruiter_name" />
+
+                <TextView
+                    android:id="@+id/recruiter_tel"
+                    style="@style/home_textstyle_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_toEndOf="@+id/recruiter_name"
+                    android:layout_toRightOf="@+id/recruiter_name"
+                    android:singleLine="true"
+                    android:text="@string/recruiter_tel" />
+
+                <ImageView
+                    android:id="@+id/call_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/call_bg" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

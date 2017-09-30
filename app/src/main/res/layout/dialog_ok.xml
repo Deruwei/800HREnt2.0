@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/note_no"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:background="@drawable/linear_yuanhu3_button"
+        android:text="取消"
+        android:textColor="#999999"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_marginRight="30dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/note_ok"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:background="@drawable/toast_shape"
+        android:text="确定"
+        android:textColor="@color/whrite"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+</LinearLayout>

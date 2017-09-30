@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\SDKIntegration.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0ad685ef512d9d7320ebd21f134c11d045ed128e">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\SDKIntegration_00d127385be4fc2a06ffc72e22b6cd89fc3c4902.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wdr\.android\build-cache\bdd2dfd664862fa581d7c6b7ddd7ef55d0d1628e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\classes_5788200702a08d77d7e751e92f0612cc544e9756.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\ShareSDK-Wechat-Core-2.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="026345fd0ea8105f21cd9688849f1301232eecf9">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\ShareSDK-Wechat-Core-2.6.0_5cfdb78ef06bad1867134c95fdfe6631cb92318f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\ShareSDK-Wechat-Favorite-2.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a9d272ae8dcbc00d9a0c8709c72ce0b79f0982fa">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\ShareSDK-Wechat-Favorite-2.6.0_bf0638439021ff127808d4469a52a5fcffa49d92.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\ShareSDK-Wechat-Core-2.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="026345fd0ea8105f21cd9688849f1301232eecf9">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\ShareSDK-Wechat-Core-2.6.0_5cfdb78ef06bad1867134c95fdfe6631cb92318f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\MobTools.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b2cba35ceab382729de67845f613556d38a32133">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\MobTools_f934283881e9acb81d6810d19d4d3e7351544847.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\umeng-analytics-v5.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="124e0c15ac2b0b061ad4e68fc6ac0a32f33e2b33">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\umeng-analytics-v5.2.4_5ec22747718cd91aabaf311ce97d43390cfddd4e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\nineoldandroids-2.4.0_ed73b604358fd3e130cb70aae97b187ba1a7d51e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndoridSDK\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\constraint-layout-solver-1.0.2_ec675b7d28cfbd1d6b76f0c80f2f7932674dbe31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andorid Studio\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\gson-2.2.4_7b0107a09528a3097aa6134663f66fa19f15938b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\ShareSDK-QZone-2.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="220b0f41eb09db85c24113a0f8d69cf1011b0e07">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\ShareSDK-QZone-2.6.0_9e9cf6621f349117d8c51fd4c2e8cbe29239d503.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\ShareSDK-SinaWeibo-2.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4850471ee42c51d046ac83448be0d56aa1dff1f5">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\ShareSDK-SinaWeibo-2.6.0_7afd8460441f7730f3f716a1316578fac41918a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\ShareSDK-Core-2.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ce77708798f39a79b83785dd24dd551b4680e469">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\ShareSDK-Core-2.6.0_f2361806146a498d7bd3d58b681860e44de56733.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Andorid Studio\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\gson-2.2.4_7b0107a09528a3097aa6134663f66fa19f15938b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\ShareSDK-Wechat-Favorite-2.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a9d272ae8dcbc00d9a0c8709c72ce0b79f0982fa">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\ShareSDK-Wechat-Favorite-2.6.0_bf0638439021ff127808d4469a52a5fcffa49d92.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\umeng-analytics-v5.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="124e0c15ac2b0b061ad4e68fc6ac0a32f33e2b33">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\umeng-analytics-v5.2.4_5ec22747718cd91aabaf311ce97d43390cfddd4e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\ShareSDK-SinaWeibo-2.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4850471ee42c51d046ac83448be0d56aa1dff1f5">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\ShareSDK-SinaWeibo-2.6.0_7afd8460441f7730f3f716a1316578fac41918a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndoridSDK\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\support-annotations-21.0.3_1443422ccaec64674824b5f0eea6897cbea692a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wdr\.android\build-cache\bdd2dfd664862fa581d7c6b7ddd7ef55d0d1628e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\classes_5788200702a08d77d7e751e92f0612cc544e9756.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\ShareSDK-QZone-2.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="220b0f41eb09db85c24113a0f8d69cf1011b0e07">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\ShareSDK-QZone-2.6.0_9e9cf6621f349117d8c51fd4c2e8cbe29239d503.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wdr\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\butterknife-7.0.1_429a7c9b82785c6b0f4e053651d768f282998303.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\nineoldandroids-2.4.0_ed73b604358fd3e130cb70aae97b187ba1a7d51e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\nineoldandroids-2.4.0_ed73b604358fd3e130cb70aae97b187ba1a7d51e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\ShareSDK-QZone-2.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="220b0f41eb09db85c24113a0f8d69cf1011b0e07">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\ShareSDK-QZone-2.6.0_9e9cf6621f349117d8c51fd4c2e8cbe29239d503.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\MobTools.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b2cba35ceab382729de67845f613556d38a32133">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\MobTools_f934283881e9acb81d6810d19d4d3e7351544847.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndoridSDK\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\constraint-layout-solver-1.0.2_ec675b7d28cfbd1d6b76f0c80f2f7932674dbe31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\ShareSDK-Renren-2.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7c42a1f99cb44d923ebcbce0b0fa56c2dc2460c5">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\ShareSDK-Renren-2.6.0_f6cdfcfa09675c173a05ced19e4a5f3546720006.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\MobTools.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b2cba35ceab382729de67845f613556d38a32133">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\MobTools_f934283881e9acb81d6810d19d4d3e7351544847.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\ShareSDK-Renren-2.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7c42a1f99cb44d923ebcbce0b0fa56c2dc2460c5">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\ShareSDK-Renren-2.6.0_f6cdfcfa09675c173a05ced19e4a5f3546720006.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\ShareSDK-Wechat-Moments-2.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="58cc538afcaea68397481e5447836e62797551cc">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\ShareSDK-Wechat-Moments-2.6.0_1d7e58855806718018465e69aaf362321b064aa0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\ShareSDK-Wechat-2.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="af48a61a1270951dc870e1579a48a415ff10c1cc">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\ShareSDK-Wechat-2.6.0_08ae01dc7bb150ddf6117dfff79525f59743480c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\ShareSDK-Wechat-Moments-2.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="58cc538afcaea68397481e5447836e62797551cc">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\ShareSDK-Wechat-Moments-2.6.0_1d7e58855806718018465e69aaf362321b064aa0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\ShareSDK-Wechat-Moments-2.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="58cc538afcaea68397481e5447836e62797551cc">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\ShareSDK-Wechat-Moments-2.6.0_1d7e58855806718018465e69aaf362321b064aa0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\ShareSDK-Renren-2.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7c42a1f99cb44d923ebcbce0b0fa56c2dc2460c5">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\ShareSDK-Renren-2.6.0_f6cdfcfa09675c173a05ced19e4a5f3546720006.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\ShareSDK-ShortMessage-2.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b684edab91a8650bacc82b42a19ad683776d6eb4">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\ShareSDK-ShortMessage-2.6.0_ffce142ab475c0f2d93b5a7d2f4607854fedbf98.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\ShareSDK-Wechat-2.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="af48a61a1270951dc870e1579a48a415ff10c1cc">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\ShareSDK-Wechat-2.6.0_08ae01dc7bb150ddf6117dfff79525f59743480c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\umeng-analytics-v5.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="124e0c15ac2b0b061ad4e68fc6ac0a32f33e2b33">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\umeng-analytics-v5.2.4_5ec22747718cd91aabaf311ce97d43390cfddd4e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\ShareSDK-Wechat-2.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="af48a61a1270951dc870e1579a48a415ff10c1cc">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\ShareSDK-Wechat-2.6.0_08ae01dc7bb150ddf6117dfff79525f59743480c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\systembartint-1.0.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="06404f77b92ec723cc132e825afe85a07da85ee6">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\systembartint-1.0.4_3a0741177c8493415e223f60dfc4384215475138.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\ShareSDK-Wechat-Core-2.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="026345fd0ea8105f21cd9688849f1301232eecf9">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\ShareSDK-Wechat-Core-2.6.0_5cfdb78ef06bad1867134c95fdfe6631cb92318f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\ShareSDK-ShortMessage-2.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b684edab91a8650bacc82b42a19ad683776d6eb4">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\ShareSDK-ShortMessage-2.6.0_ffce142ab475c0f2d93b5a7d2f4607854fedbf98.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wdr\.android\build-cache\0bcb53bdc53ee6c3216fc0972053a6812e0dfa9d\output\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\internal_impl-21.0.3_7724208ef930d960683a95932414a0bbf0e04862.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wdr\.android\build-cache\0bcb53bdc53ee6c3216fc0972053a6812e0dfa9d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\classes_7203add842b78be22e66b80cc30f0fd2f13c8b8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\ShareSDK-TencentWeibo-2.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7a060ee498fb065bb769b89dd78d63c4a6da2407">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\ShareSDK-TencentWeibo-2.6.0_3c9d48b687f1e8c6e2b745aa32ebd107201fd4c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\systembartint-1.0.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="06404f77b92ec723cc132e825afe85a07da85ee6">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\systembartint-1.0.4_3a0741177c8493415e223f60dfc4384215475138.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\universal-image-loader-1.9.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\universal-image-loader-1.9.4_c3f32cd4ceda57db94f814ee325a45c7d74b1b22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\pickerview\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0c95a757779f9c57b216de2b4c80c6dd90389d62">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\classes_7364e70c5cea026c72cf89b05a763d46a614e21a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\ShareSDK-TencentWeibo-2.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7a060ee498fb065bb769b89dd78d63c4a6da2407">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\ShareSDK-TencentWeibo-2.6.0_3c9d48b687f1e8c6e2b745aa32ebd107201fd4c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\pickerview\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0c95a757779f9c57b216de2b4c80c6dd90389d62">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\classes_7364e70c5cea026c72cf89b05a763d46a614e21a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\universal-image-loader-1.9.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\universal-image-loader-1.9.4_c3f32cd4ceda57db94f814ee325a45c7d74b1b22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wdr\.android\build-cache\0bcb53bdc53ee6c3216fc0972053a6812e0dfa9d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\classes_7203add842b78be22e66b80cc30f0fd2f13c8b8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wdr\.android\build-cache\0bcb53bdc53ee6c3216fc0972053a6812e0dfa9d\output\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\internal_impl-21.0.3_7724208ef930d960683a95932414a0bbf0e04862.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wdr\.android\build-cache\0bcb53bdc53ee6c3216fc0972053a6812e0dfa9d\output\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\internal_impl-21.0.3_7724208ef930d960683a95932414a0bbf0e04862.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\ShareSDK-ShortMessage-2.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b684edab91a8650bacc82b42a19ad683776d6eb4">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\ShareSDK-ShortMessage-2.6.0_ffce142ab475c0f2d93b5a7d2f4607854fedbf98.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\ShareSDK-QQ-2.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e6c6b568ccacd915fbf96b9b73697fecb778d36e">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\ShareSDK-QQ-2.6.0_f931b773073b2d82fe2021a0359f49b395b78be8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\SDKIntegration.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ad685ef512d9d7320ebd21f134c11d045ed128e">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\SDKIntegration_00d127385be4fc2a06ffc72e22b6cd89fc3c4902.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\ShareSDK-Core-2.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ce77708798f39a79b83785dd24dd551b4680e469">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\ShareSDK-Core-2.6.0_f2361806146a498d7bd3d58b681860e44de56733.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\pickerview\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0c95a757779f9c57b216de2b4c80c6dd90389d62">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\classes_7364e70c5cea026c72cf89b05a763d46a614e21a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wdr\.android\build-cache\f905c2fbb465ae45bec076077bfcd6fccf2a5dd6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\classes_63a42d27b0408c3eb7187f5178d9e0a32a3792e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\ShareSDK-QQ-2.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e6c6b568ccacd915fbf96b9b73697fecb778d36e">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\ShareSDK-QQ-2.6.0_f931b773073b2d82fe2021a0359f49b395b78be8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\ShareSDK-TencentWeibo-2.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7a060ee498fb065bb769b89dd78d63c4a6da2407">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\ShareSDK-TencentWeibo-2.6.0_3c9d48b687f1e8c6e2b745aa32ebd107201fd4c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndoridSDK\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\support-annotations-21.0.3_1443422ccaec64674824b5f0eea6897cbea692a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wdr\.android\build-cache\f905c2fbb465ae45bec076077bfcd6fccf2a5dd6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\classes_63a42d27b0408c3eb7187f5178d9e0a32a3792e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\ShareSDK-Core-2.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ce77708798f39a79b83785dd24dd551b4680e469">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\ShareSDK-Core-2.6.0_f2361806146a498d7bd3d58b681860e44de56733.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wdr\.android\build-cache\f905c2fbb465ae45bec076077bfcd6fccf2a5dd6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\classes_63a42d27b0408c3eb7187f5178d9e0a32a3792e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\SDKIntegration.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0ad685ef512d9d7320ebd21f134c11d045ed128e">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\SDKIntegration_00d127385be4fc2a06ffc72e22b6cd89fc3c4902.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndoridSDK\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\support-annotations-21.0.3_1443422ccaec64674824b5f0eea6897cbea692a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\ShareSDK-SinaWeibo-2.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4850471ee42c51d046ac83448be0d56aa1dff1f5">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\ShareSDK-SinaWeibo-2.6.0_7afd8460441f7730f3f716a1316578fac41918a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wdr\.android\build-cache\0bcb53bdc53ee6c3216fc0972053a6812e0dfa9d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\classes_7203add842b78be22e66b80cc30f0fd2f13c8b8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\ShareSDK-QQ-2.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e6c6b568ccacd915fbf96b9b73697fecb778d36e">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\ShareSDK-QQ-2.6.0_f931b773073b2d82fe2021a0359f49b395b78be8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\universal-image-loader-1.9.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\universal-image-loader-1.9.4_c3f32cd4ceda57db94f814ee325a45c7d74b1b22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\800HREnt2.020170921\800HREnt2.0\app\libs\ShareSDK-Wechat-Favorite-2.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a9d272ae8dcbc00d9a0c8709c72ce0b79f0982fa">
+        <dex dex="F:\800HREnt2.020170921\800HREnt2.0\app\build\intermediates\pre-dexed\360\debug\ShareSDK-Wechat-Favorite-2.6.0_bf0638439021ff127808d4469a52a5fcffa49d92.jar" />
+    </item>
+
+</items>

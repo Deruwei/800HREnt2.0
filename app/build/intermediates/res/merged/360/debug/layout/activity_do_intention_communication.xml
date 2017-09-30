@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F6F6"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="false"
+    tools:context="com.hr.ent.ui.DoIntentionCommunicationActivity">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/head_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#F39800">
+
+        <ImageView
+            android:id="@+id/iv_dointencomm_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/topfanhui" />
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/head_textstyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="意向沟通" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F6F6F6"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="希望沟通职位"
+                    android:textColor="#333333"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_dointencomm_choosejob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:text="请选择职位"
+                    android:textColor="#CCCCCC"
+                    android:textSize="14sp" />
+
+                <!--<EditText-->
+                    <!--android:background="#fff"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content" />-->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#fff"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="22dp"
+                    android:text="希望沟通内容（多选）"
+                    android:textColor="#333333"
+                    android:textSize="14sp" />
+                <!--"1" 状态：是否离职及离职原因-->
+                <!--"6" 管理：是否带团队及团队规模-->
+                <!--"2" 地点：目前工作地点及期望工作地点-->
+                <!--"7" 薪资：目前薪资及期望薪资-->
+                <!--"3" 动向：是否关注新机会-->
+                <!--"8" 户籍：户籍及当前居住地点-->
+                <!--"4" 规划：期望行业及职位-->
+                <!--"9" 婚育：婚育情况-->
+                <!--"5" 意向：对该职位是否有意向-->
+                <!--"10" 时间：方便联系时间或面试时间-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout style="@style/linear_dointencomm">
+
+                        <CheckBox
+                            android:id="@+id/cb_dointencomm_check1"
+                            style="@style/linear_dointencomm_cb"
+                            android:text="状态：" />
+
+                        <TextView
+                            style="@style/linear_dointencomm_tv"
+                            android:text="是否离职及离职原因" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/linear_dointencomm">
+
+                        <CheckBox
+                            android:id="@+id/cb_dointencomm_check6"
+                            style="@style/linear_dointencomm_cb"
+                            android:text="管理：" />
+
+                        <TextView
+                            style="@style/linear_dointencomm_tv"
+                            android:text="是否带团队及团队规模" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/linear_dointencomm">
+
+                        <CheckBox
+                            android:id="@+id/cb_dointencomm_check2"
+                            style="@style/linear_dointencomm_cb"
+                            android:text="地点：" />
+
+                        <TextView
+                            style="@style/linear_dointencomm_tv"
+                            android:text="目前工作地点及期望工作地点" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/linear_dointencomm">
+
+                        <CheckBox
+                            android:id="@+id/cb_dointencomm_check7"
+                            style="@style/linear_dointencomm_cb"
+                            android:text="薪资：" />
+
+                        <TextView
+                            style="@style/linear_dointencomm_tv"
+                            android:text="目前薪资及期望薪资" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/linear_dointencomm">
+
+                        <CheckBox
+                            android:id="@+id/cb_dointencomm_check3"
+                            style="@style/linear_dointencomm_cb"
+                            android:text="动向：" />
+
+                        <TextView
+                            style="@style/linear_dointencomm_tv"
+                            android:text="是否关注新机会" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/linear_dointencomm">
+
+                        <CheckBox
+                            android:id="@+id/cb_dointencomm_check8"
+                            style="@style/linear_dointencomm_cb"
+                            android:text="户籍：" />
+
+                        <TextView
+                            style="@style/linear_dointencomm_tv"
+                            android:text="户籍及当前居住地点" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/linear_dointencomm">
+
+                        <CheckBox
+                            android:id="@+id/cb_dointencomm_check4"
+                            style="@style/linear_dointencomm_cb"
+                            android:text="规划：" />
+
+                        <TextView
+                            style="@style/linear_dointencomm_tv"
+                            android:text="期望行业及职位" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/linear_dointencomm">
+
+                        <CheckBox
+                            android:id="@+id/cb_dointencomm_check9"
+                            style="@style/linear_dointencomm_cb"
+                            android:text="婚育：" />
+
+                        <TextView
+                            style="@style/linear_dointencomm_tv"
+                            android:text="婚育情况" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/linear_dointencomm">
+
+                        <CheckBox
+                            android:id="@+id/cb_dointencomm_check5"
+                            style="@style/linear_dointencomm_cb"
+                            android:text="意向：" />
+
+                        <TextView
+                            style="@style/linear_dointencomm_tv"
+                            android:text="对该职位是否有意向" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/linear_dointencomm">
+
+                        <CheckBox
+                            android:id="@+id/cb_dointencomm_check10"
+                            style="@style/linear_dointencomm_cb"
+                            android:text="时间：" />
+
+                        <TextView
+                            style="@style/linear_dointencomm_tv"
+                            android:text="方便联系时间或面试时间" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginTop="10dp"
+                android:background="#fff"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:text="补充"
+                    android:textColor="#333333"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/et_dointencomm"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:background="#fff"
+                    android:hint="请输入您希望了解的其他内容（200字内）"
+                    android:textColor="#333333"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/cb_dointencomm_checkagree"
+                style="@style/linear_dointencomm_cb"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="我需要人力资源顾问先跟我联系确认沟通细节"
+                android:textColor="#333333" />
+
+            <Button
+                android:id="@+id/bt_dointencomm_submit"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/linear_yuanhu_button"
+                android:text="提交"
+                android:textColor="@color/whrite"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

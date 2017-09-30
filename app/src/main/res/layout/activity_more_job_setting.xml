@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="false"
+    tools:context="com.hr.ent.ui.MoreJobSettingActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#F39800"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+        <ImageView
+            android:id="@+id/tv_set_job_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/topfanhui" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="更多设置"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#fff"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12dp"
+                        android:text="职位要求"
+                        android:textColor="#F39D0D"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="12dp"
+                    android:background="#F6F6F6" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="#fff"
+                    android:gravity="center_vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="31dp"
+                        android:text="工作经验"
+                        android:textColor="#333333"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/tv_moresetting_jobexp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="21dp"
+                        android:drawablePadding="10dp"
+                        android:drawableRight="@mipmap/jiantou_right"
+                        android:scaleType="fitXY"
+                        android:text="请选择"
+                        android:textColor="#F39D0D" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="#fff"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="31dp"
+                        android:text="专业要求"
+                        android:textColor="#333333"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:textSize="13sp"
+                        android:background="#fff"
+                        android:hint="请输入专业要求"
+                        android:id="@+id/tv_moresetting_major"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="21dp"
+                         />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="#fff"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="31dp"
+                        android:text="学历要求"
+                        android:textColor="#333333"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/tv_moresetting_edu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="21dp"
+                        android:drawablePadding="10dp"
+                        android:drawableRight="@mipmap/jiantou_right"
+                        android:scaleType="fitXY"
+                        android:text="请选择"
+                        android:textColor="#F39D0D" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="#fff"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="31dp"
+                        android:text="职称"
+                        android:textColor="#333333"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/tv_moresetting_postname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="21dp"
+                        android:drawablePadding="10dp"
+                        android:drawableRight="@mipmap/jiantou_right"
+                        android:scaleType="fitXY"
+                        android:text="请选择"
+                        android:textColor="#F39D0D" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="#fff"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="31dp"
+                        android:text="语言要求"
+                        android:textColor="#333333"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/tv_moresetting_language"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="21dp"
+                        android:drawablePadding="10dp"
+                        android:drawableRight="@mipmap/jiantou_right"
+                        android:scaleType="fitXY"
+                        android:text="请选择"
+                        android:textColor="#F39D0D" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="#fff"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="31dp"
+                        android:text="语言水平"
+                        android:textColor="#333333"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/tv_moresetting_langlevel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="21dp"
+                        android:drawablePadding="10dp"
+                        android:drawableRight="@mipmap/jiantou_right"
+                        android:scaleType="fitXY"
+                        android:text="请选择"
+                        android:textColor="#F39D0D" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="#f6f6f6" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#fff"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12dp"
+                        android:text="职位联系方式"
+                        android:textColor="#F39D0D"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="12dp"
+                    android:background="#EBEBEB" />
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <RelativeLayout style="@style/more_job_rel1">
+
+                    <CheckBox
+                        android:id="@+id/check_moreset_1"
+                        style="@style/more_job_check1" />
+
+                    <TextView
+                        android:id="@+id/tv_moreset_1"
+                        style="@style/more_job_tv1"
+                        android:layout_toEndOf="@+id/check_moreset_1"
+                        android:layout_toRightOf="@+id/check_moreset_1"
+                        android:text="" />
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/more_job_rel1">
+
+                    <CheckBox
+                        android:id="@+id/check_moreset_2"
+                        style="@style/more_job_check1" />
+
+                    <TextView
+                        android:id="@+id/tv_moreset_2"
+                        style="@style/more_job_tv1"
+                        android:layout_toEndOf="@+id/check_moreset_2"
+                        android:layout_toRightOf="@+id/check_moreset_2"
+                        android:text="" />
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/more_job_rel1">
+
+                    <CheckBox
+                        android:id="@+id/check_moreset_3"
+                        style="@style/more_job_check1" />
+
+                    <TextView
+                        android:id="@+id/tv_moreset_3"
+                        style="@style/more_job_tv1"
+                        android:layout_toEndOf="@+id/check_moreset_3"
+                        android:layout_toRightOf="@+id/check_moreset_3"
+                        android:text="" />
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/more_job_rel1">
+
+                    <CheckBox
+                        android:id="@+id/check_moreset_4"
+                        style="@style/more_job_check1" />
+
+                    <TextView
+                        android:id="@+id/tv_moreset_4"
+                        style="@style/more_job_tv1"
+                        android:layout_toEndOf="@+id/check_moreset_4"
+                        android:layout_toRightOf="@+id/check_moreset_4"
+                        android:text="" />
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/more_job_rel1">
+
+                    <TextView
+                        android:id="@+id/tv_moreset_5"
+                        style="@style/more_job_tv1"
+                        android:layout_marginLeft="30dp"
+                        android:text="电子邮箱：123456789@800hr.com" />
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/more_job_rel1">
+
+                    <TextView
+                        style="@style/more_job_tv1"
+                        android:layout_marginLeft="30dp"
+                        android:text="为避免您收到垃圾邮件，联系邮箱将不公开，如果需要显示， 请联系您的招聘顾问。"
+                        android:textColor="#FE4F4F" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="#f6f6f6" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#fff"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12dp"
+                        android:text="简历接收方式"
+                        android:textColor="#F39D0D"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="12dp"
+                    android:background="#EBEBEB" />
+
+                <RelativeLayout style="@style/more_job_rel1">
+
+                    <TextView
+                        style="@style/more_job_tv1"
+                        android:layout_marginLeft="30dp"
+                        android:text="电子邮件是接收简历的重要方式，请您至少设置一个邮箱来 接收简历。"
+                        android:textColor="#FE4F4F" />
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/more_job_rel1">
+
+                    <CheckBox
+                        android:clickable="false"
+                        android:enabled="false"
+                        android:text=""
+                        android:id="@+id/check_moreset_6"
+                        style="@style/more_job_check1" />
+
+                    <TextView
+                        android:id="@+id/tv_moreset_6"
+                        style="@style/more_job_tv1"
+                        android:layout_toEndOf="@+id/check_moreset_6"
+                        android:layout_toRightOf="@+id/check_moreset_6"
+                        android:text="" />
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/more_job_rel1">
+
+                    <CheckBox
+                        android:text=""
+                        android:id="@+id/check_moreset_7"
+                        style="@style/more_job_check1" />
+
+                    <TextView
+                        android:id="@+id/tv_moreset_7"
+                        style="@style/more_job_tv1"
+                        android:layout_toEndOf="@+id/check_moreset_7"
+                        android:layout_toRightOf="@+id/check_moreset_7"
+                        android:text="" />
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/more_job_rel1">
+
+                    <CheckBox
+                        android:text=""
+                        android:id="@+id/check_moreset_8"
+                        style="@style/more_job_check1" />
+
+                    <TextView
+                        android:id="@+id/tv_moreset_8"
+                        style="@style/more_job_tv1"
+                        android:layout_toEndOf="@+id/check_moreset_8"
+                        android:layout_toRightOf="@+id/check_moreset_8"
+                        android:text="" />
+                </RelativeLayout>
+
+                <EditText
+                    android:textSize="13sp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:hint="请输入邮箱地址"
+                    android:background="#fff"
+                    android:id="@+id/ed_morjob_emailaddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"/>
+            </LinearLayout>
+            <RelativeLayout
+                android:gravity="center"
+                android:background="#f6f6f6"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+                <TextView
+                    android:id="@+id/tv_morejob_save"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="保存"
+                    android:textColor="#fff"
+                    android:background="@drawable/linear_yuanhu_button"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

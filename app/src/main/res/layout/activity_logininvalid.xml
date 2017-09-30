@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="false"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/register_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="345dp"
+        android:text="@string/login_invalid1"
+        android:textColor="@color/red"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/register_tip"
+        android:layout_alignLeft="@+id/register_tip1"
+        android:layout_marginBottom="26dp"
+        android:text="@string/login_invalthree"
+        android:textColor="@color/whrite"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_marginBottom="99dp"
+        android:text="@string/login_invalfore"
+        android:textColor="@color/red"
+        android:textSize="17sp" />
+<ListView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView9"
+        android:layout_alignLeft="@+id/register_tip"
+        android:layout_marginTop="25dp"
+        android:text="@string/login_invaltwo"
+        android:textColor="@color/red"
+        android:textSize="15sp" >
+    </ListView>
+    
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView9"
+        android:layout_alignLeft="@+id/textView2"
+        android:text="@string/login_inval"
+        android:textColor="@color/whrite"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/register_tip1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_tip"
+        android:layout_centerHorizontal="true"
+        android:text="@string/login_invalid2"
+        android:textColor="@color/whrite"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/call_phone_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView9"
+        android:layout_below="@+id/register_tip1"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/hname"
+        android:visibility="visible" />
+
+</RelativeLayout>

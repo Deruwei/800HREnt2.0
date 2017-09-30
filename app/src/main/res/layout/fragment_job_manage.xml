@@ -1,0 +1,238 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whrite"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#F39800">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="职位管理"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <!--<ImageView-->
+        <!--android:id="@+id/refsh_all_job"-->
+        <!--android:layout_width="44dp"-->
+        <!--android:layout_height="44dp"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_marginRight="12dp"-->
+        <!--android:scaleType="center"-->
+        <!--android:src="@mipmap/shuaxin" />-->
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/rl_jobmag_issuenewjob"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:text="发布新职位"
+                android:textColor="#F39D0D"
+                android:textSize="14sp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="12dp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="21dp"
+                android:src="@mipmap/jiantou_right" />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#F6F6F6" />
+        <!--<RelativeLayout-->
+            <!--android:background="#fff"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:gravity="center_vertical">-->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="12dp"-->
+                <!--android:text="发起人才寻访"-->
+                <!--android:textColor="#F39D0D"-->
+                <!--android:textSize="14sp" />-->
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="10dp"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_marginRight="21dp"-->
+                <!--android:scaleType="fitXY"-->
+                <!--android:src="@mipmap/jiantou_right" />-->
+        <!--</RelativeLayout>-->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#F6F6F6" />
+        <RelativeLayout
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:text="职位列表"
+                android:textColor="#F39D0D"
+                android:textSize="14sp" />
+        </RelativeLayout>
+        <View
+            android:layout_marginLeft="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#F6F6F6" />
+        <RelativeLayout
+            android:id="@+id/rl_jobmag_issuejob"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="31dp"
+                android:text="发布中职位"
+                android:textColor="#333333"
+                android:textSize="13sp" />
+            <TextView
+                android:id="@+id/tv_jobmag_issuejob"
+                android:drawablePadding="31dp"
+                android:drawableRight="@mipmap/jiantou_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="21dp"
+                android:scaleType="fitXY"
+                android:textColor="#F39D0D"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl_jobmag_auditjob"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="31dp"
+                android:text="审核未通过职位"
+                android:textColor="#333333"
+                android:textSize="13sp" />
+            <TextView
+                android:id="@+id/tv_jobmag_auditjob"
+                android:drawablePadding="31dp"
+                android:drawableRight="@mipmap/jiantou_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="21dp"
+                android:scaleType="fitXY"
+                android:textColor="#F39D0D"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl_jobmag_unpulish"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="31dp"
+                android:text="未发布职位"
+                android:textColor="#333333"
+                android:textSize="13sp" />
+            <TextView
+                android:id="@+id/tv_jobmag_unpulish"
+                android:drawablePadding="31dp"
+                android:drawableRight="@mipmap/jiantou_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="21dp"
+                android:scaleType="fitXY"
+                android:textColor="#F39D0D"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl_jobmag_pause"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="31dp"
+                android:text="已暂停职位"
+                android:textColor="#333333"
+                android:textSize="13sp" />
+            <TextView
+                android:id="@+id/tv_jobmag_pause"
+                android:drawablePadding="31dp"
+                android:drawableRight="@mipmap/jiantou_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="21dp"
+                android:scaleType="fitXY"
+                android:textColor="#F39D0D"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl_jobmag_offline"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="31dp"
+                android:text="已到期职位"
+                android:textColor="#333333"
+                android:textSize="13sp" />
+            <TextView
+                android:id="@+id/tv_jobmag_offline"
+                android:drawablePadding="31dp"
+                android:drawableRight="@mipmap/jiantou_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="21dp"
+                android:scaleType="fitXY"
+                android:textColor="#F39D0D"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ebebeb"
+    android:layout_height="match_parent">
+        <ScrollView
+            android:visibility="gone"
+            android:layout_above="@+id/lins"
+                android:id="@+id/resumeinfo_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none"
+                android:background="#f6f6f6"
+                android:padding="10dp"
+        >
+    <TableLayout
+        android:id="@+id/resumeinfo_tablelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:stretchColumns="1" >
+<!--<TableLayout>与TableRow颜色不一样就会有边框-->
+        <!-- 提示头信息 -->
+
+        <include
+            android:id="@+id/resumeinfo_headinfo_layout"
+            layout="@layout/resumeinfo_headinfo" />
+
+        <!-- 个人信息 -->
+
+        <include
+            android:id="@+id/resumeinfo_personinfo_layout"
+            layout="@layout/resumeinfo_personinfo" />
+
+        <!-- 求职意向 -->
+
+        <include
+            android:id="@+id/resumeinfo_jobintention_layout"
+            layout="@layout/resumeinfo_jobintention" />
+
+        <!-- 工作经验 -->
+
+        <include
+            android:id="@+id/resumeinfo_workexperience_layout"
+            layout="@layout/resumeinfo_workexperience" />
+        <!-- 教育背景 -->
+
+        <include
+            android:id="@+id/resumeinfo_edubackground_layout"
+            layout="@layout/resumeinfo_edubackground" />
+
+        <!-- 项目经验 -->
+
+        <include
+            android:id="@+id/resumeinfo_projectexperience_layout"
+            layout="@layout/resumeinfo_projectexperience" />
+        <!-- 自我评价 -->
+
+        <include
+            android:id="@+id/resumeinfo_selfevaluation_layout"
+            layout="@layout/resumeinfo_selfevaluation" />
+
+        <!-- 语言能力 -->
+
+        <include
+            android:id="@+id/resumeinfo_language_layout"
+            layout="@layout/resumeinfo_language" />
+
+        <!-- 专业技能 -->
+
+        <include
+            android:id="@+id/resumeinfo_professionalskill_layout"
+            layout="@layout/resumeinfo_professionalskill" />
+
+        <!-- 培训经历 -->
+
+        <include
+            android:id="@+id/resumeinfo_trainingexperience_layout"
+            layout="@layout/resumeinfo_trainingexperience" />
+        
+        <!-- 附件、作品 <include
+            android:id="@+id/resumeinfo_accessory_layout"
+            layout="@layout/resumeinfo_accessory" />-->
+          
+        
+
+        <!-- 证书 -->
+
+        <include
+            android:id="@+id/resumeinfo_cerificate_layout"
+            layout="@layout/resumeinfo_cerificate" />
+
+        <!-- 其他 -->
+
+        <include
+            android:id="@+id/resumeinfo_other_layout"
+            layout="@layout/resumeinfo_other" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#f6f6f6" />
+    </TableLayout>
+</ScrollView>
+        <TextView
+            android:visibility="gone"
+            android:gravity="center"
+            android:textColor="#666666"
+            android:text="@string/noResume"
+            android:id="@+id/tv_noResume"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+</RelativeLayout>

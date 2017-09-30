@@ -1,0 +1,670 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:scrollbars="none"
+    tools:context="com.hr.ent.fragment.SearchResumeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/rl_homefragment_search"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_margin="12dp"
+                android:layout_weight="6"
+                android:background="@drawable/linear_yuanhu_search_hui"
+                android:gravity="center">
+
+                <EditText
+                    android:id="@+id/edit_homefragment_search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#f6f6f6"
+                    android:drawableLeft="@mipmap/fangdajing"
+                    android:drawablePadding="5dp"
+                    android:hint="请输入关键词/职位/专业..."
+                    android:singleLine="true"
+                    android:textColor="#999"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_homefragment_search"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="搜索"
+                android:textColor="#F39D0D"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="5dp"
+            android:text="关键词指向"
+            android:textColor="#333333"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cb_searchresume1_check1"
+                style="@style/CheckBoxTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="16dp"
+                android:paddingLeft="10dp"
+                android:text="全文"
+                android:textColor="#333333"
+                android:textSize="14sp" />
+
+            <CheckBox
+                android:id="@+id/cb_searchresume1_check2"
+                style="@style/CheckBoxTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="16dp"
+                android:paddingLeft="10dp"
+                android:text="职位"
+                android:textColor="#333333"
+                android:textSize="14sp" />
+
+            <CheckBox
+                android:id="@+id/cb_searchresume1_check3"
+                style="@style/CheckBoxTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="16dp"
+                android:paddingLeft="10dp"
+                android:text="工作经历"
+                android:textColor="#333333"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cb_searchresume1_check5"
+                style="@style/CheckBoxTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="16dp"
+                android:paddingLeft="10dp"
+                android:text="学校"
+                android:textColor="#333333"
+                android:textSize="14sp" />
+
+            <CheckBox
+                android:id="@+id/cb_searchresume1_check6"
+                style="@style/CheckBoxTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="16dp"
+                android:paddingLeft="10dp"
+                android:text="专业"
+                android:textColor="#333333"
+                android:textSize="14sp" />
+
+            <CheckBox
+                android:id="@+id/cb_searchresume1_check4"
+                style="@style/CheckBoxTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="16dp"
+                android:paddingLeft="10dp"
+                android:text="项目经验"
+                android:textColor="#333333"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginTop="25dp"
+            android:background="#f6f6f6" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:text="选择搜索条件"
+                android:textColor="#333333"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="6dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="12dp"
+                android:src="@mipmap/xiajiantouhui" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="15dp"
+            android:background="#EBEBEB" />
+
+        <RelativeLayout
+            android:id="@+id/rl_searchresume_jobclassify"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/reusme_myresume_tvhead"
+                android:text="职位分类" />
+
+            <TextView
+                android:id="@+id/tv_searchresume_jobclassify"
+                style="@style/reusme_search_right"
+                android:text="不限" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_searchresume_jobexp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/reusme_myresume_tvhead"
+                android:text="工作经验" />
+
+            <com.hr.ent.view.IdSpineer
+                android:id="@+id/sp_searchresume_jobexp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_toLeftOf="@+id/imageView451236"
+                android:layout_toStartOf="@+id/imageView451236"
+                android:background="@null"
+                android:gravity="center_vertical|right"
+                android:singleLine="true" />
+
+            <ImageView
+                android:id="@+id/imageView451236"
+                android:layout_width="6dp"
+                android:layout_height="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:src="@mipmap/jiantou_right" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_searchresume_nowplace"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/reusme_myresume_tvhead"
+                android:text="现居住地" />
+
+            <TextView
+                android:id="@+id/tv_searchresume_nowplace"
+                style="@style/reusme_search_right"
+                android:text="不限" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_searchresume_edu"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/reusme_myresume_tvhead"
+                android:text="学历" />
+
+            <com.hr.ent.view.IdSpineer
+                android:id="@+id/sp_searchresume_edu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_toLeftOf="@+id/imageView451239"
+                android:layout_toStartOf="@+id/imageView451239"
+                android:background="@null"
+                android:gravity="center_vertical|right"
+                android:singleLine="true" />
+
+            <ImageView
+                android:id="@+id/imageView451239"
+                android:layout_width="6dp"
+                android:layout_height="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:src="@mipmap/jiantou_right" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_searchresume_lingyu"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/reusme_myresume_tvhead"
+                android:text="所属领域" />
+
+            <TextView
+                android:id="@+id/tv_searchresume_lingyu"
+                style="@style/reusme_search_right"
+                android:text="不限" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_searchresume_jobnature"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/reusme_myresume_tvhead"
+                android:text="工作性质" />
+
+
+            <com.hr.ent.view.IdSpineer
+                android:id="@+id/sp_searchresume_jobnature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_toLeftOf="@+id/imageView451235"
+                android:layout_toStartOf="@+id/imageView451235"
+                android:background="@null"
+                android:gravity="center_vertical|right"
+                android:singleLine="true" />
+
+            <ImageView
+                android:id="@+id/imageView451235"
+                android:layout_width="6dp"
+                android:layout_height="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:src="@mipmap/jiantou_right" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_searchresume_salary"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/reusme_myresume_tvhead"
+                android:text="期望月薪" />
+
+            <TextView
+                android:id="@+id/tv_searchresume_salary"
+                style="@style/reusme_search_right"
+                android:text="不限" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_searchresume_workplace"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/reusme_myresume_tvhead"
+                android:text="期望工作地" />
+
+            <TextView
+                android:id="@+id/tv_searchresume_workplace"
+                style="@style/reusme_search_right"
+                android:text="不限" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_searchresume_post"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/reusme_myresume_tvhead"
+                android:text="职称" />
+
+            <com.hr.ent.view.IdSpineer
+                android:id="@+id/sp_searchresume_post"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_toLeftOf="@+id/iv_searchresume_post"
+                android:layout_toStartOf="@+id/iv_searchresume_post"
+                android:background="@null"
+                android:gravity="center_vertical|right"
+                android:singleLine="true" />
+
+            <ImageView
+                android:id="@+id/iv_searchresume_post"
+                android:layout_width="6dp"
+                android:layout_height="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:src="@mipmap/jiantou_right" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_searchresume_age"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/reusme_myresume_tvhead"
+                android:text="年龄" />
+
+            <com.hr.ent.view.IdSpineer
+                android:id="@+id/sp_searchresume_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_toLeftOf="@+id/iv_searchresume_age"
+                android:layout_toStartOf="@+id/iv_searchresume_age"
+                android:background="@null"
+                android:gravity="center_vertical|right"
+                android:singleLine="true" />
+
+            <ImageView
+                android:id="@+id/iv_searchresume_age"
+                android:layout_width="6dp"
+                android:layout_height="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:src="@mipmap/jiantou_right" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_searchresume_customage"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/reusme_myresume_tvhead"
+                android:text="自定义年龄" />
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:textSize="12sp"
+                    android:id="@+id/ed_searchresume_age2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:hint="年龄"
+                    android:inputType="number" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="—" />
+
+                <EditText
+                    android:textSize="12sp"
+                    android:id="@+id/ed_searchresume_age3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:hint="年龄"
+                    android:inputType="number" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_searchresume_sex"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/reusme_myresume_tvhead"
+                android:text="性别" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="13dp"
+                android:gravity="right"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/cb_searchresume1_sex0"
+                    style="@style/CheckBoxTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginTop="16dp"
+                    android:paddingLeft="10dp"
+                    android:text="不限"
+                    android:textColor="#333333"
+                    android:textSize="14sp" />
+
+                <CheckBox
+                    android:id="@+id/cb_searchresume1_sex1"
+                    style="@style/CheckBoxTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginTop="16dp"
+                    android:paddingLeft="10dp"
+                    android:text="男"
+                    android:textColor="#333333"
+                    android:textSize="14sp" />
+
+                <CheckBox
+                    android:id="@+id/cb_searchresume1_sex2"
+                    style="@style/CheckBoxTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginTop="16dp"
+                    android:paddingLeft="10dp"
+                    android:text="女"
+                    android:textColor="#333333"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_searchresume_resumeupdate"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/reusme_myresume_tvhead"
+                android:text="简历更新" />
+
+            <com.hr.ent.view.IdSpineer
+                android:id="@+id/sp_searchresume_resumeupdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_toLeftOf="@+id/iv_searchresume_resumeupdate"
+                android:layout_toStartOf="@+id/iv_searchresume_resumeupdate"
+                android:background="@null"
+                android:gravity="center_vertical|right"
+                android:singleLine="true" />
+
+            <ImageView
+                android:id="@+id/iv_searchresume_resumeupdate"
+                android:layout_width="6dp"
+                android:layout_height="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:src="@mipmap/jiantou_right" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_searchresume_language"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/reusme_myresume_tvhead"
+                android:text="外语要求" />
+
+            <com.hr.ent.view.IdSpineer
+                android:id="@+id/sp_searchresume_language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_toLeftOf="@+id/iv_searchresume_language"
+                android:layout_toStartOf="@+id/iv_searchresume_language"
+                android:background="@null"
+                android:gravity="center_vertical|right"
+                android:singleLine="true" />
+
+            <ImageView
+                android:id="@+id/iv_searchresume_language"
+                android:layout_width="6dp"
+                android:layout_height="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:src="@mipmap/jiantou_right" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_searchresume_languagegrade"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/reusme_myresume_tvhead"
+                android:text="外语水平" />
+
+            <com.hr.ent.view.IdSpineer
+                android:id="@+id/sp_searchresume_languagegrade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_toLeftOf="@+id/iv_searchresume_languagegrade"
+                android:layout_toStartOf="@+id/iv_searchresume_languagegrade"
+                android:background="@null"
+                android:gravity="center_vertical|right"
+                android:singleLine="true" />
+
+            <ImageView
+                android:id="@+id/iv_searchresume_languagegrade"
+                android:layout_width="6dp"
+                android:layout_height="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:src="@mipmap/jiantou_right" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

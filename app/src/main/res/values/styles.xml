@@ -1,0 +1,412 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <!--日期选择空间-->
+    <style name="mytime_dialog"  parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+    <style name="myTransparent">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+    <style name="time_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+    <style name="dialogWindowAnim" parent="android:Animation" mce_bogus="1">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit_anim</item>
+    </style>
+    <!-- 启动style，防止屏幕出现黑屏 -->
+    <style name="StartTheme" parent="@android:style/Theme.Black">
+        <item name="android:background">@color/yellow</item>
+    </style>
+
+    <!-- CheckBox  theme -->
+    <style name="CheckBoxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/check_bg</item>
+    </style>
+
+    <!-- 自定义loading dialog -->
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/loading_bg</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 模糊 -->
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- PopupWindow的弹出动画样式 -->
+    <style name="ModePopupAnimation" mce_bogus="1">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+    <!-- 字体的style -->
+    <style name="main_button_textstyle">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!--BeautifulDialog-->
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="head_textstyle">
+        <item name="android:textColor">@color/whrite</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="home_textstyle_one">
+        <item name="android:textColor">@color/orange1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingLeft">5dp</item>
+    </style>
+
+    <style name="home_textstyle_two">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingLeft">10dp</item>
+    </style>
+
+    <style name="job_textstyle">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <!-- ResumeActivity -->
+    <style name="inviteItemName">
+        <item name="android:textColor">#413f3f</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- ResumeInfoActivity -->
+
+    <style name="resumeinfo_group_textstyle">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="resumeinfo_child_textstyle">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">6dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="resumeinfo_btn_textstyle">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="colour_style">
+        <item name="android:textColor">#89d8d4</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="colour_style2">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#999999</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="colour_style4">
+        <item name="android:textColor">#666666</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="dialog_title_textstyle">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/orange</item>
+        <item name="android:padding">3dp</item>
+    </style>
+
+    <!--<item name="android:textColor">@color/black</item>-->
+    <style name="dialog_textstyle">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="dialog_edit_textstyle">
+        <item name="android:textColor">@color/black_light</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@drawable/note_bg</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+    </style>
+
+    <style name="dialog_ok_textstyle">
+        <item name="android:textColor">@color/whrite</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@drawable/submit_btn_bg</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- setting pop -->
+    <style name="popupwindow_textstyle">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="linear_main_tab_iv">
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+    </style>
+
+    <style name="linear_main_tab">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="linear_main_tab_tv">
+        <item name="android:textColor">#333333</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <!-- 标题栏-->
+    <style name="title_tv_textsize">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="title_rl_scale">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:background">#F39800</item>
+    </style>
+
+    <style name="title_iv_back">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@mipmap/topfanhui</item>
+    </style>
+    <!--企业注册-->
+    <style name="comregister_tv1">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:text">*</item>
+        <item name="android:textColor">#E60012</item>
+    </style>
+
+    <style name="comregister_tv2">
+
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:textColor">#666666</item>
+    </style>
+
+    <style name="comregister_et">
+        <!--<item name="android:paddingLeft">40dp</item>-->
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_width">240dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColorHint">#CCCCCC</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="comregister_rl">
+        <item name="android:background">#fff</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+
+    <style name="comregister_rl2">
+        <item name="android:background">#ebebeb</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginLeft">12dp</item>
+    </style>
+    <!--关键词搜索页面搜索框-->
+    <style name="pager_keyword_search_search">
+        <item name="android:layout_width">260dp</item>
+        <item name="android:layout_height">25dp</item>
+    </style>
+    <!--预览简历页面-->
+    <style name="resume_previewresume_title">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="SampleTheme.Light" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="SimpleDialog" parent="@android:style/Theme.Dialog"><!--name是我们在使用时要用到的资源的标志，parent是指当前的样式所继承的父类样式-->
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item><!--隐藏标题栏-->
+        <item name="android:background">@color/alpha</item>
+        <item name="android:windowBackground">@color/alpha
+        </item><!--这儿也很重要啊，我这儿用了一张透明的.9.png的图，当然用#00000000也是可以的，否则的话这儿出来后有一个黑色的背景-->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="reusme_myresume_tvhead">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginLeft">30dp</item>
+    </style>
+
+    <style name="reusme_search_right">
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:textColor">#999999</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_gravity">center_vertical|right</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:gravity">center_vertical|right</item>
+        <item name="android:drawableRight">@mipmap/jiantou_right</item>
+        <item name="android:drawablePadding">20dp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="checkbox_territory_style">
+        <item name="android:button">@drawable/checkbox_bg</item>
+    </style>
+
+    <style name="linear_dointencomm">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="linear_dointencomm_cb" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:textColor">#F39D0D</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:button">@drawable/check_bg2</item>
+    </style>
+
+    <style name="linear_dointencomm_tv">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <!--更多设置-->
+    <style name="more_job_rel1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">#fff</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+    </style>
+
+    <style name="more_job_check1" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_style_duihao</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:text">公开</item>
+        <item name="android:textColor">#F39D0D</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="more_job_tv1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">14dp</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="post_job_check1" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_style_duihao</item>
+    </style>
+</resources>
